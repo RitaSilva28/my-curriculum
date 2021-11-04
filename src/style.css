@@ -1,0 +1,67 @@
+.first-color {
+	background: #1b1d1f;
+}
+
+.second-color {
+	background: #393e46;
+}
+
+.third-color {
+	background: #d65a31;
+}
+
+.fourth-color {
+	background: #eeeeee;
+}
+
+body {
+	background: #1b1d1f;
+	font-family: "Oswald", sans-serif;
+}
+
+ul {
+	text-align: center;
+	padding: 0;
+	width: 75%;
+	margin-bottom: 0px;
+}
+
+li {
+	display: inline;
+	margin: 0;
+	color: #d65a31;
+	font-size: 25px;
+	text-decoration: none;
+	transition: all 300ms ease-in-out;
+}
+
+li:hover {
+	cursor: pointer;
+	color: #eeeeee;
+}
+
+hr {
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid #d65a31;
+	border-radius: 3px;
+	opacity: 1;
+}
+
+h1 {
+	color: #acaaaa;
+	text-align: center;
+}
+
+.container {
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.logo-image {
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0;
+}
