@@ -1,6 +1,8 @@
-body {
+.App {
+  padding:0;
+  margin:0;
   text-align: center;
-  background-color: #0f3358;
+  background-color: #fff;
 
 
 }
