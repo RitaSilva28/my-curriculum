@@ -5,57 +5,95 @@
 
 }
 
-.intro-bg{
-    position: absolute;
-    top:0;
-    left:0;
-    height:100vh;
-    width: 100vw;
-    content: url("./images/pexels-steve-johnson-1774986.jpg");
-    opacity: 1;
-    z-index: -1;
-    filter: blur(3px);
 
-}
 
 
 .intro{
-    color:#30475E;
-    background-color: #dddddda7;
+    background-color: #FCFCFC;  
+    max-height:100vh;
     width: 70%;
-    margin:0px auto;
+    margin:200px auto;
     border-radius: 5px;
 }
 
-.titles{
-    margin:230px 0;
-    width:100%;
+
+.name{
+    color: #333333;
+    font-weight:900;
+    font-size:80px;
+    position: relative;
+    top:5px;
 }
-span{
-    color: #F05454;
+
+
+
+.frontend-word{
+    font-style:italic;
+    font-weight: bold;
+    position: relative;
+}
+
+.button-word{
+    font-weight: bolder;
+    font-size:33px;
+}
+
+.trace1{
+    position: absolute;
+    left:-10px;
+    top:80px;
+}
+.trace2{
+    width:100%;
+ position: absolute;
+ top:37px;
+ left:-5px;
+
+   
+}
+
+.hide{
+    display:block;
 }
 
 
 h1{
-    font-size: 40px;
-    margin-top: 20px;
+    font-size: 58px;
+    font-weight: 100;
+    margin: 20px 0;
+    color:#474747;
+
 
 }
 
-h4{
-    font-size: 50px;
+h2{
+    font-size: 33px;
     font-weight: 300;
+    margin:0;
+    color:#474747;
+    line-height: 55px;;
+    
+
+}
+
+p{
+    display:block;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 28px;
+    font-style: italic;
+    color:#474747;
 
 }
 
 input{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color:#222831;
+    font-family: 'Fira Sans', sans-serif;
+    font-style:italic;
+    font-weight: 900;
+    color:#DDDDDD;
     font-size: 35px;
-    background-color: rgba(0, 0, 0, 0);
-    padding: 18px 15px;
-    border-radius: 30px;
+    background-color:#353535;
+    padding: 10px 20px;
+    border-radius: 8px;
     border:none;
     transition: all 400ms ease-in-out;
 
@@ -63,18 +101,26 @@ input{
 
 input:hover{
     cursor: pointer;
-    color:rgb(255, 101, 35);
+    color:#474747;
+    background-color:#DDDDDD;
+    
 
 }
 
 
-@media only screen and  (max-width: 500px)  {
+@media only screen and  (max-width: 600px)  {
 
-    .intro-bg{
-        content:url("./images/pexels-steve-johnson-1774986.jpg");
-        height:100vh;
-        width: 100vw;
-        background-size: 200%;
-    }
+   h1{
+       font-size: 50px;
+   }
+
+   .hide{
+       display:none;
+   }
+
+
+
+  
+    
 
 }

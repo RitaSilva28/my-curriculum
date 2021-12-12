@@ -1,6 +1,9 @@
 import React,{useState} from "react"
 import"./Intro.css"
 import MainPage from"./MainPage"
+import Trace1 from "./images/traço.png" ;
+import Trace2 from "./images/traço2.png" ;
+
 
 
 
@@ -16,20 +19,16 @@ function enterSite(){
 
     if(displayIntro){
     return(
-        <div>
         
         <div className="intro">
-            <div className="titles">
-              <h1>Hello, I'm <span>Rita Silva</span></h1>
-              <h1>I'm a Frontend Developer and Video Editor</h1>
+              <h1>  HELLO! I'M <span className="name">RITA <img class="trace1" src={Trace1} alt="underline draw"/>
+</span></h1>
+              <h2>  I'M A <span className="frontend-word ">FRONTEND DEVELOPER <img class="trace2 hide" src={Trace2} alt="underline draw"/></span> AND THIS IS MY WEB PORTFOLIO  </h2>
 
-              <h4>Check my work</h4>
-              <input type="button" value="Enter site ➡︎" onClick={enterSite}/>
+              <p> PLEASE CLICK THE <span className="button-word">{`<BUTTON>`}</span> BELOW TO CHECK IT OUT </p>
+              <input type="button" value="ENTER" onClick={enterSite}/>
               </div>
-              </div>
-            <img className="intro-bg" alt="background"/>
        
-        </div>
              
               
     )
