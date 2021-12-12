@@ -4,11 +4,6 @@ import MainPage from"./MainPage"
 import Trace1 from "./images/traço.png" ;
 import Trace2 from "./images/traço2.png" ;
 
-
-
-
-
-
 export default function Intro(){
 
     let [displayIntro, setDisplayIntro]=useState(true)
@@ -27,10 +22,7 @@ function enterSite(){
 
               <p> PLEASE CLICK THE <span className="button-word">{`<BUTTON>`}</span> BELOW TO CHECK IT OUT </p>
               <input type="button" value="ENTER" onClick={enterSite}/>
-              </div>
-       
-             
-              
+              </div> 
     )
     }else{
         return <MainPage />
