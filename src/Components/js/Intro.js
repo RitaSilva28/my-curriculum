@@ -1,8 +1,8 @@
 import React,{useState} from "react"
-import"./Intro.css"
+import"../css/Intro.css"
 import MainPage from"./MainPage"
-import Trace1 from "./images/traço.png" ;
-import Trace2 from "./images/traço2.png" ;
+import Trace1 from "../../images/traço.png" ;
+import Trace2 from "../../images/traço2.png" ;
 
 export default function Intro(){
 
