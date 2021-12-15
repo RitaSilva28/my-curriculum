@@ -3,6 +3,7 @@ import About from "./About"
 import Projects from "./Projects"
 import Education from "./Education"
 import Contact from "./Contact";
+import Socials from "./Socials";
 import Nav from "./Nav";
 
 import "../css/MainPage.css"
@@ -18,13 +19,14 @@ export default function MainPage(){
 
 
 <div className="MainPage">
-<About id="About"/>
-<Education id="Education"/>
-<Projects id="Projects"/>
-<Contact id="Contact"/>
-
-
+<About />
+<Education />
+<Projects />
+<Contact />
+<Socials/>
 </div>
+
+
 </div>
   )
 }
