@@ -3,3 +3,11 @@
     margin-top:50px;
 }
 
+.trace{
+    position:absolute;
+    top:60px;
+    left:-5px;
+    width:100%;
+    
+    }
+

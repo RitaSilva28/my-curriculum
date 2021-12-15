@@ -1,6 +1,6 @@
-ul{
+.nav-container ul{
     padding:0;
-    position: absolute;
+    position: fixed;
     right:30px;
     top:0;
 
@@ -9,16 +9,41 @@ ul{
 li{
     display:inline;
     margin:0 20px;
+    font-weight: 200;
+    font-style: oblique;
+    font-size:25px;
     color:#474747;
 
 }
 
 a{
     text-decoration: none;
- 
+    color:#474747;
+
 }
 
-a:visited { 
-    text-decoration: none; 
-    color: #474747; 
-   }
+a:hover{
+    color:#ff9f2a;
+
+}
+
+.nav-item{
+    transition:all 300ms ease-in-out;
+}
+
+.nav-item .active{
+
+    text-transform: uppercase;
+    text-decoration: line-through;
+    transition:all 300ms ease-in-out;
+
+}
+
+.nav-item:hover{
+cursor:pointer;
+}
+
+
+
+
+

@@ -1,0 +1,20 @@
+.logo{
+    width:40px;
+}
+
+.social-container{
+    position: relative;
+}
+
+.social-container ul{
+    padding:0;
+    position:fixed;
+    bottom:0;
+    left:20px;
+
+}
+
+.social-item{
+    display:block;
+    margin:20px 0;
+}
