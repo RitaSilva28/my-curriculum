@@ -75,7 +75,7 @@ h2{
 
 }
 
-p{
+.intro p{
     display:block;
     font-family: 'Fira Sans', sans-serif;
     font-size: 28px;

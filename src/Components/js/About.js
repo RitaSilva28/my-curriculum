@@ -15,15 +15,41 @@ export default function About(){
 <div className="about-me-container row ">
     <img className=" profile-photo col-3" src={Photo} alt="Rita Silva"  />
 
-         <p className="col-8" >Hello! My name is Rita and I'm a junior Frontend Developer. My interest in programming/development started in the beginning of 2020 when I had
+         <p className="col-8 about-description" >Hello! My name is Rita and I'm a Junior Frontend Developer. My interest in programming/development started in the beginning of 2020 when I had
 more free time and decided to explore the process of creating a website.
-At first I enrolled in a few short courses on websites like Udemy and LinkedIn Learning. I
-then decided to enroll in Mobwiser’s Web Development Bootcamp. By doing so I was able
+At first I enrolled in a few short courses on websites like Udemy and LinkedIn Learning. <br/><br/>Then, I decided to enroll in Mobwiser’s Web Development Bootcamp. By doing so I was able
 
-to focus my attention and interest in Frontend Development
+to focus my attention and interest in Frontend Development.
 Currently I’m looking for a career change that will allow me to pursue
 Frontend Development and make it my full-time career. </p>
 
+
+</div>
+
+<div className="skills-container">
+
+    <h4>My Skills</h4>
+
+<div className="row">
+
+    <ul className="col">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SASS</li>
+        <li>Javascript</li>
+        <li>Bootstrap</li>
+        <li>React</li>
+        <li>Angular</li>
+    </ul>
+    <ul className="col">
+    <li>VSCode</li>
+        <li>Typescript</li>
+        <li>GIT</li>
+        <li>NPM</li>
+       
+    </ul>
+
+    </div>
 
 </div>
 

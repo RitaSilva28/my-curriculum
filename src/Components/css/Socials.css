@@ -13,8 +13,9 @@
     left:20px;
 
 }
-
-.social-item{
+.social-container li{
     display:block;
     margin:20px 0;
+
 }
+
