@@ -8,13 +8,13 @@ export default function Nav(){
     return(
         <div className="nav-container">
             <ul>
-    <li className="nav-item"> <Link to="about" spy={true} smooth={true}  duration={500}>About
+    <li className="nav-item"> <Link to="about" spy={true} offset={-50} smooth={true}  duration={500}>About
         </Link></li>
-    <li className="nav-item"><Link to="education" spy={true} smooth={true}  duration={500} >Education
+    <li className="nav-item"><Link to="education" spy={true} offset={-50} smooth={true}  duration={500} >Education
         </Link></li>
-    <li className="nav-item"><Link to="projects" spy={true} smooth={true}  duration={500} >Projects
+    <li className="nav-item"><Link to="projects" spy={true} offset={-50} smooth={true}  duration={500} >Projects
         </Link></li>
-    <li className="nav-item"><Link to="contact"  spy={true} smooth={true}  duration={500} >Contact
+    <li className="nav-item"><Link to="contact"  spy={true} offset={0} smooth={true}  duration={500} >Contact
         </Link></li>
        <li className="nav-item"><a href="https://drive.google.com/file/d/1pBS9L-mooITyzWpXyHX8KL0JmlhRRTQx/view?usp=sharing" target="_blank" rel="noreferrer" >Resume</a></li>
 

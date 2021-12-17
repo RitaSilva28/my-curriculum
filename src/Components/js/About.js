@@ -8,7 +8,10 @@ import"../css/About.css"
 export default function About(){
     return( 
 
+
+
     <div  id="about">
+
 
          <h1> <span className="title">About me...<img class="trace" src={Trace2} alt="underline draw"/></span></h1>
 
@@ -57,16 +60,16 @@ Frontend Development and make it my full-time career. </p>
 
 <h4>What I can bring to your team...</h4>
 
-<ol>
+<ul>
     <li>Organization</li>
     <li>Resilience</li>
     <li>Team Work</li>
     <li>Willingness to learn</li>
-    <li></li>
+    <li>Responsability</li>
 
 
 
-</ol>
+</ul>
 
 
 

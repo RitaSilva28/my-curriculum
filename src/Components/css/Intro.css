@@ -1,15 +1,11 @@
 
 
-.App{
-    background-color:transparent;
-
-}
-
 
 
 
 .intro{
-    background-color: #FCFCFC;  
+    background-color: #FCFCFC;
+    text-align: center;  
     max-height:100vh;
     width: 70%;
     margin:200px auto;
