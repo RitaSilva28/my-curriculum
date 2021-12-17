@@ -1,16 +1,25 @@
+.nav-container{
+    color:red;
+
+}
+
 .nav-container ul{
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0 10px 9px rgb(234, 234, 234,1);
     padding:0;
     position: fixed;
-    right:30px;
+    text-align: right;
+    width:100%;
+    z-index: 1;
     top:0;
 
 }
 
-li{
+.nav-container li{
     display:inline;
-    margin:0 20px;
-    font-weight: 200;
-    font-style: oblique;
+    margin:0px 20px;
+    font-weight: 500;
+    font-style: italic;
     font-size:25px;
     color:#474747;
 
@@ -22,10 +31,6 @@ a{
 
 }
 
-a:hover{
-    color:#ff9f2a;
-
-}
 
 .nav-item{
     transition:all 300ms ease-in-out;
@@ -33,8 +38,8 @@ a:hover{
 
 .nav-item .active{
 
-    text-transform: uppercase;
-    text-decoration: line-through;
+    background-color: thistle;
+    text-decoration:unset;
     transition:all 300ms ease-in-out;
 
 }
