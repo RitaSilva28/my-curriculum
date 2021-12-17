@@ -53,6 +53,25 @@ Frontend Development and make it my full-time career. </p>
 
 </div>
 
+<div className="hire-container">
+
+<h4>What I can bring to your team...</h4>
+
+<ol>
+    <li>Organization</li>
+    <li>Resilience</li>
+    <li>Team Work</li>
+    <li>Willingness to learn</li>
+    <li></li>
+
+
+
+</ol>
+
+
+
+</div>
+
         </div>
         )
 }
