@@ -18,13 +18,20 @@ export default function About(){
 <div className="about-me-container row ">
     <img className=" profile-photo col-3" src={Photo} alt="Rita Silva"  />
 
-         <p className="col-8 about-description" >Hello! My name is Rita and I'm a Junior Frontend Developer. My interest in programming/development started in the beginning of 2020 when I had
-more free time and decided to explore the process of creating a website.
-At first I enrolled in a few short courses on websites like Udemy and LinkedIn Learning. <br/><br/>Then, I decided to enroll in Mobwiser’s Web Development Bootcamp. By doing so I was able
+         <p className="col-8 about-description" >
+             
+             Hi there! I'm Rita! <br/><br/>
+          I'm a Junior Frontend Developer. In 2020 with lockdown and the pandemic I decided to explore how to create a website. I always considered myself to be a very curious person and to easily learn new things. <br/> <br/>I enrolled in a few short courses on websites like Udemy and LinkedIn Learning. I moved on to Mobwiser’s Web Development Bootcamp and recently finished 3 SheCodes Workshops (Basics, Plus and React). Currently I’m looking for a career change that will allow me to pursue
+          Frontend Development and make it my full-time career.
 
-to focus my attention and interest in Frontend Development.
-Currently I’m looking for a career change that will allow me to pursue
-Frontend Development and make it my full-time career. </p>
+
+          <br/>
+          
+    
+
+
+
+ </p>
 
 
 </div>
@@ -40,13 +47,14 @@ Frontend Development and make it my full-time career. </p>
         <li>CSS</li>
         <li>SASS</li>
         <li>Javascript</li>
-        <li>Bootstrap</li>
         <li>React</li>
         <li>Angular</li>
     </ul>
     <ul className="col">
-    <li>VSCode</li>
+        <li>VSCode</li>
         <li>Typescript</li>
+        <li>Bootstrap</li>
+
         <li>GIT</li>
         <li>NPM</li>
        
@@ -61,11 +69,15 @@ Frontend Development and make it my full-time career. </p>
 <h4>What I can bring to your team...</h4>
 
 <ul>
+<li>Team Work</li>
+<li>Communication</li>
+
+<li>Responsability</li>
+
     <li>Organization</li>
-    <li>Resilience</li>
-    <li>Team Work</li>
     <li>Willingness to learn</li>
-    <li>Responsability</li>
+    <li>Commitment</li>
+
 
 
 

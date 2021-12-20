@@ -1,7 +1,15 @@
+
+br {
+    content: "";
+    margin: 15px 0;
+    display: block;
+  }
+
 #about{
 text-align: left;
 width:60%;
-margin:100px auto;
+margin:0 auto;
+padding-top:70px
 }
 
 .about-me-container{
@@ -19,6 +27,7 @@ margin:100px auto;
     font-style:normal;
     text-align:left;
     font-size:19px;
+    line-height: 22px;
 }
 
 .profile-photo{
@@ -67,6 +76,7 @@ margin:100px auto;
     font-style:normal;
     font-weight: bold;
     position: relative;
+    margin-left:60px;
 }
 
 .hire-container{

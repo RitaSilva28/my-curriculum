@@ -1,6 +1,7 @@
 import React,{useState} from "react"
 import"../css/Intro.css"
-import MainPage from"./MainPage"
+import MainPage from"./MainPage";
+import Footer from"./Footer"
 import Trace1 from "../../images/traço.png" ;
 import Trace2 from "../../images/traço2.png" ;
 
@@ -15,6 +16,7 @@ function enterSite(){
     if(displayIntro){
     return(
         
+        <div>
         <div className="intro">
               <h1>  HELLO! I'M <span className="name">RITA <img class="trace1" src={Trace1} alt="underline draw"/>
 </span></h1>
@@ -23,8 +25,14 @@ function enterSite(){
               <p> PLEASE CLICK THE <span className="button-word">{`<BUTTON>`}</span> BELOW TO CHECK IT OUT </p>
               <input type="button" value="ENTER" onClick={enterSite}/>
               </div> 
+              <Footer/>
+
+              
+
+              </div>
     )
     }else{
         return <MainPage />
+
     }
 }

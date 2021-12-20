@@ -1,15 +1,13 @@
 
 
-
-
-
 .intro{
-    background-color: #FCFCFC;
     text-align: center;  
-    max-height:100vh;
     width: 70%;
-    margin:200px auto;
+    height: 100vh;
+    margin:0px auto;
+    padding-top:200px;
     border-radius: 5px;
+    
 }
 
 
@@ -101,6 +99,8 @@ input:hover{
     
 
 }
+
+
 
 
 @media only screen and  (max-width: 600px)  {

@@ -1,5 +1,6 @@
 import React from "react";
 import Trace2 from "../../images/traço2.png" ;
+import "../css/Education.css"
 
 
 export default function Education(){

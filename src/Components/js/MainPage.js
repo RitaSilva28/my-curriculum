@@ -7,6 +7,7 @@ import Socials from "./Socials";
 import Nav from "./Nav";
 
 import "../css/MainPage.css"
+import Footer from "./Footer";
 
 
 
@@ -25,6 +26,8 @@ export default function MainPage(){
 <Contact />
 <Socials/>
 </div>
+
+<Footer/>
 
 
 </div>
