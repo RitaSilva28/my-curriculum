@@ -7,7 +7,6 @@ import Socials from "./Socials";
 import Nav from "./Nav";
 
 import "../css/MainPage.css"
-import Footer from "./Footer";
 
 
 
