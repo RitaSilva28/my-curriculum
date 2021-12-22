@@ -3,7 +3,6 @@
 .intro{
     text-align: center;  
     width: 70%;
-    height: 100vh;
     margin:0px auto;
     padding-top:200px;
     border-radius: 5px;
@@ -109,13 +108,27 @@ input:hover{
        font-size: 50px;
    }
 
+   .trace1{
+    position: absolute;
+    left:-10px;
+    top:60px;
+}
+
+   .name{
+    color: #333333;
+    font-weight:900;
+    font-size:60px;
+    position: relative;
+    top:5px;
+}
+
    .hide{
        display:none;
    }
 
    .intro{
     
-    width: 70%;
+    width: 80%;
     margin:30px auto;
    }
 

@@ -4,6 +4,7 @@
 
 .social-container{
     position: relative;
+    z-index: 1;
 }
 
 .social-container ul{
@@ -19,3 +20,25 @@
 
 }
 
+@media only screen and  (max-width: 600px)  {
+
+    .logo{
+        width:30px;
+    }
+
+    .social-container ul{
+        padding:0;
+        position:relative;
+        bottom:0;
+        top:30px;
+        left:0px;
+
+    
+    }
+    .social-container li{
+        display:inline;
+        margin:0px 20px;
+    
+    }
+    
+    }

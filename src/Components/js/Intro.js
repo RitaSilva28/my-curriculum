@@ -2,8 +2,8 @@ import React,{useState} from "react"
 import"../css/Intro.css"
 import MainPage from"./MainPage";
 import Footer from"./Footer"
-import Trace1 from "../../images/traço.png" ;
-import Trace2 from "../../images/traço2.png" ;
+import Trace1 from "../../images/traço.svg" ;
+import Trace2 from "../../images/traço2.svg" ;
 
 export default function Intro(){
 
@@ -25,7 +25,6 @@ function enterSite(){
               <p> PLEASE CLICK THE <span className="button-word">{`<BUTTON>`}</span> BELOW TO CHECK IT OUT </p>
               <input type="button" value="ENTER" onClick={enterSite}/>
               </div> 
-              <Footer/>
 
               
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Trace2 from "../../images/traço2.png" ;
+import Trace2 from "../../images/traço2.svg" ;
 import Photo from "../../images/fotoCV.jpeg"
 
 
@@ -16,9 +16,10 @@ export default function About(){
          <h1> <span className="title">About me...<img class="trace" src={Trace2} alt="underline draw"/></span></h1>
 
 <div className="about-me-container row ">
-    <img className=" profile-photo col-3" src={Photo} alt="Rita Silva"  />
+    <img className=" profile-photo col-sm-5 .float-sm-right
+" src={Photo} alt="Rita Silva"  />
 
-         <p className="col-8 about-description" >
+         <p className="col-sm-7 mx-auto about-description" >
              
              Hi there! I'm Rita! <br/><br/>
           I'm a Junior Frontend Developer. In 2020 with lockdown and the pandemic I decided to explore how to create a website. I always considered myself to be a very curious person and to easily learn new things. <br/> <br/>I enrolled in a few short courses on websites like Udemy and LinkedIn Learning. I moved on to Mobwiser’s Web Development Bootcamp and recently finished 3 SheCodes Workshops (Basics, Plus and React). Currently I’m looking for a career change that will allow me to pursue

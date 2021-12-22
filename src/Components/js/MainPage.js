@@ -27,7 +27,6 @@ export default function MainPage(){
 <Socials/>
 </div>
 
-<Footer/>
 
 
 </div>

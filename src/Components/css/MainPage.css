@@ -1,6 +1,9 @@
 .MainPage{
     text-align: center;
-    background-color: #FCFCFC;
+    background-color: #fcfcfc;
+    padding-bottom: 20px;;
+    
+
 }
 
 
@@ -11,4 +14,19 @@
     width:100%;
     
     }
+    
+    @media only screen and  (max-width: 600px)  {
 
+        h1{
+            font-size: 30px;
+        }
+
+        .trace{
+            position:absolute;
+            top:30px;
+            left:-5px;
+            width:100%;
+            
+            }
+        
+        }

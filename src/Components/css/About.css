@@ -6,34 +6,29 @@ br {
   }
 
 #about{
-text-align: left;
+text-align: center;
 width:60%;
 margin:0 auto;
-padding-top:70px
+padding-top:40px
 }
 
 .about-me-container{
-    margin:50px 0;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
 
-
-
 #about p{
     font-style:normal;
-    text-align:left;
+    text-align:justify;
+    margin:25px 0;
     font-size:19px;
     line-height: 22px;
 }
 
 .profile-photo{
 
-    width:300px;
-    height:290px;
+    width:320px;
+    height:300px;
     border-radius:40px;
     margin:0 auto;
     filter: grayscale(100%);
@@ -66,7 +61,7 @@ padding-top:70px
 
 .skills-container{
     text-align: center;
-    margin:0 auto;
+    margin:25px auto;
     width:85%;
 }
 
@@ -84,3 +79,36 @@ padding-top:70px
     text-align: center;
 
 }
+
+@media only screen and  (max-width: 600px)  {
+
+    #about{
+        text-align: center;
+        width:80%;
+        margin:0 auto;
+        padding-top:70px
+        }
+ 
+        #about p{
+            font-style:normal;
+            text-align:center;
+            font-size:19px;
+            line-height: 22px;
+        }
+
+        .about-me-container{
+            margin:50px 0;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title{
+            font-style:normal;
+            font-weight: bold;
+            position: relative;
+            margin-left:0px;
+        }
+    
+    }
