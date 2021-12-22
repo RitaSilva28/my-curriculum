@@ -18,15 +18,13 @@
     @media only screen and  (max-width: 600px)  {
 
         h1{
-            font-size: 30px;
+            font-size: 35px;
         }
 
         .trace{
             position:absolute;
-            top:30px;
+            top:35px;
             left:-5px;
-            width:100%;
-            
+            width:100%;    
             }
-        
         }
