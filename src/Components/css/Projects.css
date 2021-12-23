@@ -1,0 +1,42 @@
+
+
+.projects-container{
+
+    font-size:20px;
+    width:70%;
+    margin:50px auto;
+    justify-content: center;
+}
+
+
+
+.projects-container img{
+    width:100%;
+    margin:20px auto;
+    padding:10px
+}
+
+.project-container{
+
+    background-color: rgb(246, 246, 246);
+    flex-direction: column;
+    opacity:1;
+    width:500px;
+    margin:30px 40px;
+    border-radius:10px;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.1);
+    transition:all 200ms ease-in-out;
+
+}
+
+.project-container:hover{
+opacity:0.9;
+box-shadow: 2px 3px 7px rgb(0, 0, 0, 0.4);
+
+
+
+
+}
+
+
+

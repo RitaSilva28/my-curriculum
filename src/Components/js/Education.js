@@ -34,7 +34,7 @@ export default function Education(){
 
   </a>
 
-  <a href="https://www.shecodes.io/certificates/c06ed84ce1baba664896318de9660d7d" className="educator-container shecodes-basics col" target={"_blank"}  rel="noreferrer">
+  <a href="https://www.shecodes.io/certificates/c06ed84ce1baba664896318de9660d7d" className="educator-container col" target={"_blank"}  rel="noreferrer">
   <img className="logo-image" src={SCPlus} alt="shecodes plus logo"/>
   <h5>SheCodes Plus</h5>
   <p>November 2021</p>
