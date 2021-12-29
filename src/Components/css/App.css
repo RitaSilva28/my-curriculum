@@ -1,6 +1,6 @@
 .App{
     background-color: #fcfcfc;
-    height: 100vh;
+    height: 100%;
    
 }
 
@@ -12,9 +12,14 @@ br {
   }
 
   a{text-decoration: none;
-color:#474747}
-a:hover{text-decoration: none;
-  color:#474747}
+color:#474747;
+}
+
+
+a:hover{
+  text-decoration: none;
+  color:#474747;
+}
 
 
   @media only screen and  (max-width: 600px)  {
