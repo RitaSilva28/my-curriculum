@@ -6,7 +6,24 @@ import "../css/Nav.css"
 
 export default function Nav(){
 
-    let [display, setDisplay]=useState(false)
+    let [display, setDisplay]=useState(false);
+
+    window.addEventListener("resize", ()=>{
+        if (window.innerWidth > 655){
+
+
+  let navbar= document.querySelector("ul");
+
+navbar.style.display="block";
+        
+    } else{
+
+        let navbar= document.querySelector("ul");
+
+        navbar.style.display="none";
+
+    }});
+
 
 
     function displayNav(){
