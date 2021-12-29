@@ -11,6 +11,9 @@ br {
     line-height: 2px;
   }
 
+  a{text-decoration: none;
+color:#474747}
+
 
   @media only screen and  (max-width: 600px)  {
 

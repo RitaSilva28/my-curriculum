@@ -1,0 +1,56 @@
+#contact{
+    padding:45px 0;
+}
+
+
+button{
+    font-family: 'Fira Sans', sans-serif;
+    font-style:italic;
+    font-weight: 900;
+    color:#fcfcfc;
+    font-size: 35px;
+    background-color:#353535;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border:none;
+    transition: all 400ms ease-in-out;
+    margin:80px 0;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:#DDDDDD;
+    
+
+}
+
+button a{
+    color:#fcfcfc;
+    text-decoration: none;
+    transition: all 400ms ease-in-out;
+
+
+
+}
+
+button a:hover{
+    color:#474747;
+
+
+}
+
+.contact-description{
+    width:70%;
+    margin:70px auto;
+    font-size:25px;
+}
+
+
+@media only screen and  (max-width: 655px)  {
+
+    #contact{
+        padding:0;
+    }
+    
+}

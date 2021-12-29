@@ -4,6 +4,7 @@
     background-color: rgb(252, 252, 252);
     box-shadow: 0 5px 9px rgb(252, 252, 252,1);
     padding:0;
+    display:block;
     position: fixed;
     text-align: right;
     width:100%;
@@ -23,13 +24,13 @@
 
 }
 
-a{
+li a{
     text-decoration: none;
     color:#474747;
 
 }
 
-a:hover{
+li a:hover{
     color:#474747;
 
 }
@@ -52,7 +53,70 @@ cursor:pointer;
 text-decoration: underline;
 }
 
+.menu-button{
+    width:50px;
+    position: fixed;
+    display:none;
+    opacity:0;
+    top:30px;
+    left:7px;
+    padding:5px;
+    background-color:#fcfcfc;
+    box-shadow: 1px 1px 1px rgb(252, 252, 252);
+
+    z-index:3;
+    transition:all 200ms ease-in-out;
+
+}
+
+.menu-button:hover{
+    cursor: pointer;
+}
 
 
 
+
+
+@media only screen and  (max-width: 655px)  {
+
+
+    .nav-container li{
+        display:block;
+        padding-top:10px;
+        margin:0px 20px;
+        font-weight: 400;
+        font-style: normal;
+        font-size:25px;
+        color:#474747;
+    
+    }
+
+
+    .nav-container ul{
+        background-color: rgb(255, 255, 255);
+
+        box-shadow: none;
+        padding:60px 0;
+        display:none;
+        position: fixed;
+        top:30px;
+        text-align: left;
+        width:50%;
+        height: 100vh;
+        z-index: 2;
+        top:0;
+    
+    }
+
+    .menu-button{
+       
+        display:block;
+        opacity:1;
+      
+    
+    }
+    
+
+
+}
 

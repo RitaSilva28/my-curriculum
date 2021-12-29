@@ -1,23 +1,54 @@
-import React from "react";
+import React, {useState} from "react";
 import{Link} from "react-scroll"
+import Menu from "../../images/menu.png"
 import "../css/Nav.css"
 
 
 export default function Nav(){
 
+    let [display, setDisplay]=useState(false)
+
+
+    function displayNav(){
+
+if(window.innerWidth <= 655){
+
+        if(!display ){
+
+            let navbar= document.querySelector("ul");
+
+navbar.style.display="block";
+
+setDisplay(true)
+
+}else if(display){
+
+    let navbar= document.querySelector("ul");
+
+    navbar.style.display="none";
+
+    setDisplay(false)
+
+
+}
+}
+
+    }
+
 
     return(
         <div className="nav-container">
-            <ul>
-    <li className="nav-item"> <Link to="about" spy={true} offset={-50} smooth={false}  duration={300}>About
+            <img className="menu-button" src={Menu} alt="menu button" onClick={displayNav} />
+            <ul >
+    <li className="nav-item nav-display"> <Link to="about" spy={true} offset={-50} smooth={false}  duration={300} onClick={displayNav}>About
         </Link></li>
-    <li className="nav-item"><Link to="education" spy={true} offset={-50} smooth={false}  duration={300} >Education
+    <li className="nav-item nav-display"><Link to="education" spy={true} offset={-50} smooth={false}  duration={300} onClick={displayNav} >Education
         </Link></li>
-    <li className="nav-item"><Link to="projects" spy={true} offset={-50} smooth={false}  duration={300} >Projects
+    <li className="nav-item nav-display"><Link to="projects" spy={true} offset={-50} smooth={false}  duration={300} onClick={displayNav} >Projects
         </Link></li>
-    <li className="nav-item"><Link to="contact"  spy={true} offset={-30} smooth={false}  duration={300} >Contact
+    <li className="nav-item nav-display"><Link to="contact"  spy={true} offset={-50} smooth={false}  duration={300} onClick={displayNav} >Contact
         </Link></li>
-       <li className="nav-item"><a href="https://drive.google.com/file/d/1pBS9L-mooITyzWpXyHX8KL0JmlhRRTQx/view?usp=sharing" target="_blank" rel="noreferrer" >Resume</a></li>
+       <li className="nav-item nav-display"><a href="https://drive.google.com/file/d/1pBS9L-mooITyzWpXyHX8KL0JmlhRRTQx/view?usp=sharing" target="_blank" rel="noreferrer" onClick={displayNav}>Resume</a></li>
 
 
   </ul>
