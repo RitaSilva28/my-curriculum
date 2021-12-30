@@ -27,7 +27,7 @@ export default function Projects(){
   </div>
 
 <div className="col-3 project-container">
-  <a  href="https://mobwiser-it-academy.github.io/Share-Humanity-Rita-Silva/" target={"_blank"} rel="noreferrer" >
+  <a  href="https://vigilant-sammet-7b4e7b.netlify.app/" target={"_blank"} rel="noreferrer" >
     <img src={ShareHumanity} alt="share humanity website"/>
 <h5>Share Humanity</h5>
 <p></p>
