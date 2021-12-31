@@ -22,7 +22,7 @@ export default function Projects(){
 <a  href="https://ritasilva28.github.io/Calculadora-Salario/" target={"_blank"} rel="noreferrer">
     <img src={CalculatorSalary} alt="calculadora salário website"/>
 <h5>Salary Calculator</h5>
-  <p></p>
+  <p>Vanilla JS</p>
   </a>
   </div>
 
@@ -30,7 +30,7 @@ export default function Projects(){
   <a  href="https://vigilant-sammet-7b4e7b.netlify.app/" target={"_blank"} rel="noreferrer" >
     <img src={ShareHumanity} alt="share humanity website"/>
 <h5>Share Humanity</h5>
-<p></p>
+<p>Angular</p>
   </a>
   </div>
 
@@ -39,8 +39,8 @@ export default function Projects(){
 
   <a href="https://cranky-khorana-e5dd72.netlify.app" target={"_blank"} rel="noreferrer" >
     <img src={WeatherWebsite} alt="Weather website"/>
-<h5>React Weather App</h5>
-  <p></p>
+<h5>Weather App</h5>
+  <p>React</p>
   </a>
 
   </div>
@@ -48,8 +48,8 @@ export default function Projects(){
 <div className="col-3 project-container">
   <a href="https://cocky-thompson-249444.netlify.app" target={"_blank"} rel="noreferrer">
     <img src={Dictionary} alt="dictionary website website"/>
-<h5>React Dictionary</h5>
-  <p></p>
+<h5>Dictionary</h5>
+  <p>React</p>
   </a>
 
   </div>
