@@ -15,7 +15,7 @@ export default function Education(){
 
 <div className="education-description">
 
-<p>I started to learn how to code on my own in 2020, after a few Youtube videos and an Udemy course I decided to enroll on my first Coding Bootcamp. When I started to feel more curious about frameworks such as React I enrolled on the SheCodes React Workshop.</p>
+<p className="education-description-text">I started to learn how to code on my own in 2020, after a few Youtube videos and an Udemy course I decided to enroll on my first Coding Bootcamp. When I started to feel more curious about frameworks such as React I enrolled on the SheCodes React Workshop.</p>
 
 <div className="education-images-container row">
 
