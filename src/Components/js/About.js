@@ -22,7 +22,11 @@ export default function About(){
          <p className="col-sm-7 mx-auto about-description" >
              
              Hi there! I'm Rita! <br/><br/>
-          I'm a Junior Frontend Developer. In 2020 with lockdown and the pandemic I decided to explore how to create a website. I always considered myself to be a very curious person and to easily learn new things. <br/> <br/>I enrolled in a few short courses on websites like Udemy and LinkedIn Learning. I moved on to Mobwiser’s Web Development Bootcamp and recently finished 3 SheCodes Workshops (Basics, Plus and React). Currently I’m looking for a career change that will allow me to pursue
+          I'm a Junior Frontend Developer. In 2020 with lockdown and the pandemic I decided to explore how to create a website. I always considered myself to be a very curious person and to easily learn new things. <br/> <br/>
+          
+          I enrolled in a few short courses on websites like Udemy and LinkedIn Learning. I moved on to Mobwiser’s Web Development Bootcamp and in 2022 I finished 3 SheCodes Workshops (Basics, Plus and React). <br/> <br/>
+          
+          Recently, I finished a 4 month course of UX/UI Design at the Lisbon School of Design. Now I’m looking for a career change that will allow me to pursue
           Frontend Development and make it my full-time career.
 
 
