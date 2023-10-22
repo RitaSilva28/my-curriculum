@@ -1,6 +1,6 @@
 import React from "react";
 import Trace2 from "../../images/traço2.svg" ;
-import Photo from "../../images/fotoCV.jpeg"
+import Photo from "../../images/fotoCV.jpg"
 
 
 import"../css/About.css"
