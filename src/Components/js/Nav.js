@@ -65,7 +65,7 @@ setDisplay(true)
         </Link></li>
     <li className="nav-item nav-display"><Link to="contact"  spy={true} offset={-50} smooth={false}  duration={300} onClick={displayNav} >Contact
         </Link></li>
-       <li className="nav-item nav-display"><a href="https://drive.google.com/file/d/1zZAO2QmpDAJr425893v4_p1U-KQVs7cV/view?usp=share_link" target="_blank" rel="noreferrer" onClick={displayNav}>Resume</a></li>
+       <li className="nav-item nav-display"><a href="https://drive.google.com/file/d/1n80Xc-0LxYhVoPHC7Q13I72TcM94kjLv/view?usp=sharing" target="_blank" rel="noreferrer" onClick={displayNav}>Resume</a></li>
 
 
   </ul>
