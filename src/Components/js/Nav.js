@@ -1,74 +1,105 @@
-import React, {useState} from "react";
-import{Link} from "react-scroll"
-import Menu from "../../images/menu.png"
-import "../css/Nav.css"
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
+import Menu from '../../images/menu.png';
+import '../css/Nav.css';
 
+export default function Nav() {
+	let [display, setDisplay] = useState(false);
 
-export default function Nav(){
+	window.addEventListener('resize', () => {
+		if (window.innerWidth > 655) {
+			let navbar = document.querySelector('ul');
 
-    let [display, setDisplay]=useState(false);
+			navbar.style.display = 'block';
+		} else {
+			let navbar = document.querySelector('ul');
 
-    window.addEventListener("resize", ()=>{
-        if (window.innerWidth > 655){
+			navbar.style.display = 'none';
+		}
+	});
 
+	function displayNav() {
+		if (window.innerWidth <= 655) {
+			if (!display) {
+				let navbar = document.querySelector('ul');
 
-  let navbar= document.querySelector("ul");
+				navbar.style.display = 'block';
 
-navbar.style.display="block";
-        
-    } else{
+				setDisplay(true);
+			} else if (display) {
+				let navbar = document.querySelector('ul');
 
-        let navbar= document.querySelector("ul");
+				navbar.style.display = 'none';
 
-        navbar.style.display="none";
+				setDisplay(false);
+			}
+		}
+	}
 
-    }});
-
-
-
-    function displayNav(){
-
-if(window.innerWidth <= 655){
-
-        if(!display ){
-
-            let navbar= document.querySelector("ul");
-
-navbar.style.display="block";
-
-setDisplay(true)
-
-}else if(display){
-
-    let navbar= document.querySelector("ul");
-
-    navbar.style.display="none";
-
-    setDisplay(false)
-
-
-}
-}
-
-    }
-
-
-    return(
-        <div className="nav-container">
-            <img className="menu-button" src={Menu} alt="menu button" onClick={displayNav} />
-            <ul >
-    <li className="nav-item nav-display"> <Link to="about" spy={true} offset={-50} smooth={false}  duration={300} onClick={displayNav}>About
-        </Link></li>
-    <li className="nav-item nav-display"><Link to="education" spy={true} offset={-50} smooth={false}  duration={300} onClick={displayNav} >Education
-        </Link></li>
-    <li className="nav-item nav-display"><Link to="projects" spy={true} offset={-50} smooth={false}  duration={300} onClick={displayNav} >Projects
-        </Link></li>
-    <li className="nav-item nav-display"><Link to="contact"  spy={true} offset={-50} smooth={false}  duration={300} onClick={displayNav} >Contact
-        </Link></li>
-       <li className="nav-item nav-display"><a href="https://drive.google.com/file/d/1n80Xc-0LxYhVoPHC7Q13I72TcM94kjLv/view?usp=sharing" target="_blank" rel="noreferrer" onClick={displayNav}>Resume</a></li>
-
-
-  </ul>
-        </div>
-    )
+	return (
+		<div className="nav-container">
+			<img
+				className="menu-button"
+				src={Menu}
+				alt="menu button"
+				onClick={displayNav}
+			/>
+			<ul>
+				<li className="nav-item nav-display">
+					{' '}
+					<Link
+						to="about"
+						spy={true}
+						offset={-50}
+						smooth={false}
+						duration={300}
+						onClick={displayNav}>
+						About
+					</Link>
+				</li>
+				<li className="nav-item nav-display">
+					<Link
+						to="education"
+						spy={true}
+						offset={-50}
+						smooth={false}
+						duration={300}
+						onClick={displayNav}>
+						Education
+					</Link>
+				</li>
+				<li className="nav-item nav-display">
+					<Link
+						to="projects"
+						spy={true}
+						offset={-50}
+						smooth={false}
+						duration={300}
+						onClick={displayNav}>
+						Projects
+					</Link>
+				</li>
+				<li className="nav-item nav-display">
+					<Link
+						to="contact"
+						spy={true}
+						offset={-50}
+						smooth={false}
+						duration={300}
+						onClick={displayNav}>
+						Contact
+					</Link>
+				</li>
+				<li className="nav-item nav-display">
+					<a
+						href="https://drive.google.com/file/d/10Vh7rAo0u2Wzuygr9cLBCrXnHGQe2sxg/view?usp=drive_link"
+						target="_blank"
+						rel="noreferrer"
+						onClick={displayNav}>
+						Resume
+					</a>
+				</li>
+			</ul>
+		</div>
+	);
 }
