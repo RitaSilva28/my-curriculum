@@ -1,43 +1,31 @@
-.education-description{
-    font-size:20px;
-    width:70%;
-    margin:50px auto;
-
+.education-description {
+	font-size: 20px;
+	width: 70%;
+	margin: 50px auto;
 }
+
 
 .education-description-text {
-    text-align: justify;
+	text-align: justify;
 }
 
-
-
-
-.educator-container{
-
-    background-color: rgb(246, 246, 246);
-    flex-direction: column;
-    opacity:1;
-    margin:30px 20px;
-    border-radius:10px;
-    box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.1);
-    transition:all 200ms ease-in-out;
-
+.educator-container {
+	background-color: rgb(246, 246, 246);
+	flex-direction: column;
+	opacity: 1;
+	margin: 30px 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.1);
+	transition: all 200ms ease-in-out;
 }
 
-.educator-container:hover{
-opacity:0.9;
-box-shadow: 2px 3px 7px rgb(0, 0, 0, 0.4);
-
-
-
-
+.educator-container:hover {
+	opacity: 0.9;
+	box-shadow: 2px 3px 7px rgb(0, 0, 0, 0.4);
 }
 
-
-
-
-.logo-image{
-    width:200px;
-    height: 220px;
-    margin:0px auto;
+.logo-image {
+	width: 220px;
+	height: 220px;
+	margin: 0px auto;
 }
