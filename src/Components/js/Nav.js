@@ -92,7 +92,7 @@ export default function Nav() {
 				</li>
 				<li className="nav-item nav-display">
 					<a
-						href="https://drive.google.com/file/d/10Vh7rAo0u2Wzuygr9cLBCrXnHGQe2sxg/view?usp=drive_link"
+						href="https://drive.google.com/file/d/1gDdIIsA_UYMRbL92GoKtyMgyUGPcVPR9/view?usp=drive_link"
 						target="_blank"
 						rel="noreferrer"
 						onClick={displayNav}>
